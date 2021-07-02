@@ -5,6 +5,11 @@ function App() {
   return (
     <div className="App">
       <Greeting />
+      <hr />
+      <Greeting />
+      <hr />
+      <Greeting />
+      <hr />
     </div>
   );
 }
