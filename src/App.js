@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Greeting />
+      <Greeting firstName="Harper" />
       <hr />
-      <Greeting />
+      <Greeting firstName="Michelle" />
       <hr />
-      <Greeting />
+      <Greeting firstName="Andrea" />
       <hr />
     </div>
   );

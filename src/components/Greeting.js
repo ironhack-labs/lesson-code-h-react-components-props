@@ -1,9 +1,9 @@
-function Greeting () {
-  const message = 'Hello Ana!';
-  
+function Greeting (props) {
+  console.log(props);
+
   return (
     <div>
-      <u>{message}</u>
+      <u>Hello {props.firstName}!</u>
     </div>
   );
 }
