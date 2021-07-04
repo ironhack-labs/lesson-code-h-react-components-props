@@ -15,11 +15,11 @@ function App() {
       <Greeting firstName="Harper" />
       <Greeting firstName="Michelle" />
       <Greeting firstName="Andrea" />
+      
+      <StudentCard name="Eva" week={7} info={{ city: 'BCN', course: "WEB" }} />
+      <StudentCard name="Mat" week={8} info={{ city: 'MIA', course: "DATA" }} />
+      
       <Badge badgeText="important" />
-      <StudentList>
-        <StudentCard name="Eva" week={7} info={{ city: 'BCN', course: "WEB" }} />
-        <StudentCard name="Mat" week={8} info={{ city: 'MIA', course: "DATA" }} />
-      </StudentList>
     </div>
   );
 }
