@@ -2,10 +2,8 @@ import "./App.css";
 import Navbar from './components/Navbar';
 import Greeting from './components/Greeting';
 import StudentCard from './components/StudentCard';
-import StudentList from './components/StudentList';
+
 import Badge from './components/Badge';
-
-
 
 function App() {
 
