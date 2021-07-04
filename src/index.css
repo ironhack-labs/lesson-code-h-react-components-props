@@ -43,3 +43,10 @@ button {
   font-weight: 800;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
+.StudentCard {
+  background-color: aliceblue;
+  border: 1px solid rgb(167, 160, 160);
+  border-radius: 5px;
+  margin: 20px;
+}
