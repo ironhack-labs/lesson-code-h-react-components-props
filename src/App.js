@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Greeting from './components/Greeting';
 import StudentCard from './components/StudentCard';
 import StudentList from './components/StudentList';
+import Badge from './components/Badge';
+
 
 
 
@@ -14,6 +16,7 @@ function App() {
       <Greeting firstName="Harper" />
       <Greeting firstName="Michelle" />
       <Greeting firstName="Andrea" />
+      <Badge badgeText="important" />      
       <StudentList>
         <StudentCard name="Eva" week={7} info={{ city: 'BCN', course: "WEB" }} />
         <StudentCard name="Mat" week={8} info={{ city: 'MIA', course: "DATA" }} />
