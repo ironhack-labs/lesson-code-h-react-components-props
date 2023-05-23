@@ -1,52 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
-/* GENERIC STYLES */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
 body {
   margin: 0;
-  font-family: sans-serif;
-
-  color: #2d2f3b;
-  background-color: ghostwhite;
-
-  background-color: #ecf0f4;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d1dbe3' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-
-/* STYLES */
-nav {
-  background: cornflowerblue;
-  color: white;
-  padding: 5px 20px;
-  box-shadow: 0px 1px 2px gray;
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-main {
-  padding: 20px;
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
 button {
-  background: deepskyblue;
-  border: 0;
-  padding: 5px 10px;
-  margin: 10px;
-  border-radius: 3px;
-  font-weight: 800;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
-
-.StudentCard {
-  background-color: aliceblue;
-  border: 1px solid rgb(167, 160, 160);
-  border-radius: 5px;
-  margin: 20px;
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
