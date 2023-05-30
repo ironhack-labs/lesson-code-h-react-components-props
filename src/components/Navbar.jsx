@@ -1,16 +1,14 @@
-import React from "react";
 import Button from './Button';
 
-class Navbar extends React.Component {
-  render() {
-    return (
-      <nav>
-        <p>React - Components & props</p>
-        <Button />
-        <Button />        
-      </nav>
-    );
-  }
+function Navbar () {
+  return (
+    <nav>
+      <p>React - Components & props</p>
+      
+      <Button />
+      <Button />        
+    </nav>
+  );s
 }
 
 export default Navbar;

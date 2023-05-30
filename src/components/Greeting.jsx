@@ -1,4 +1,4 @@
-function Greeting (props) {
+const Greeting = (props) => {
   console.log(props);
 
   return (
