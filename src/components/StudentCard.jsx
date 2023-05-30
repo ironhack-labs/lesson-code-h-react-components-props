@@ -1,6 +1,4 @@
-import React from 'react'
-
-function StudentCard(props) {
+function StudentCard (props) {
   return (
     <div className="StudentCard">
       <p><b>Name:</b> {props.name}</p>

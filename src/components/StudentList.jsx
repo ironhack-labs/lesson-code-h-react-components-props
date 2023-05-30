@@ -1,4 +1,4 @@
-function StudentList(props) {
+function StudentList (props) {
   return (
     <div>
       <h2>Student List</h2>
